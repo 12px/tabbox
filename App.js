@@ -3,8 +3,9 @@ import { Text, View } from 'react-native'
 import { NavigationContainer } from '@react-navigation/native'
 import { createStackNavigator } from '@react-navigation/stack'
 
-import Home from './views/Home'
-import styles from './views/StyleSheet'
+import Home from './navigation/Home'
+
+import styles from './constants/styles'
 
 const Stack = createStackNavigator()
 
