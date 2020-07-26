@@ -3,10 +3,10 @@ import { Text, View } from 'react-native'
 
 import styles from '../constants/styles'
 
-export default function Tabbed() {
+export default function Slip() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Tabbed</Text>
+      <Text style={styles.text}>Slip</Text>
     </View>
   );
 }
